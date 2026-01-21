@@ -32,5 +32,5 @@ jobs:
           MAIL_PASS: ${{ secrets.MAIL_PASS }}
           MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
         run: |
-          python gpa_get.py
+          python get_grades.py
 
